@@ -23,8 +23,8 @@ hr {
 }
 
 .buffer {
-  /* height: 12rem; */
-  height: 26rem;
+  height: 12rem;
+/*   height: 26rem; */
 }
 .btn {
   font-weight: 700;
