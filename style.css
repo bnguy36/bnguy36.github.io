@@ -1,0 +1,52 @@
+body, html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(https://images.unsplash.com/photo-1563118490-a6fbac646b50?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* color: #fff; */
+h1 {
+  font-size: 3rem;
+  color: #e2dbdb;
+}
+
+hr {
+  margin: 20px auto;
+  color: #F05F44;
+  border: 3px solid #F05F44;
+  max-width: 65px;
+  opacity: 1;
+}
+
+.buffer {
+  /* height: 12rem; */
+  height: 26rem;
+}
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  background-color: #F05F44;	
+  border-color: #F05F44;	
+  --bs-btn-hover-bg: #ee4b08;	
+  --bs-btn-hover-border-color: #ee4b08;
+}
+
+.btn-primary:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 4px;
+}
+
+/* We created .btn-xl to override styling - it's not a bootstrap class  */
+.btn-xl {
+  padding: 1rem 2rem;
+}
+
